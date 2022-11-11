@@ -9,15 +9,19 @@ const index = (props: Props) => {
   return (
     // bg-zinc-80
     <div className="max-w-full max-h-screen overflow-hidden flex flex-row">
-      <div className="w-full h-screen basis-2/12 bg-black">
+      <div className="w-60 h-screen bg-black">
         <Leftside />
       </div>
       <div className="w-full">
-        <div className="w-full h-14 bg-blue-600 overflow-hidden">
+        <div className="h-16 bg-neutral-900 overflow-hidden">
           <Topside />
         </div>
-        <Main />
+        <div className="w-full">
+        <div className="h-screen bg-zinc-800">
+          <Main />
         </div>
+        </div>
+      </div>
     </div>
   );
 };

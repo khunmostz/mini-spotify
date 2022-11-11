@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["localhost"], // allow images to be loaded from localhost
+    domains: ["localhost",'images.unsplash.com'], // allow images to be loaded from localhost
   },
 };
 
