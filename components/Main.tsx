@@ -7,6 +7,7 @@ import AnimeBg from '../public/static/image/anime-bg.jpg';
 import EdmBg from '../public/static/image/edm-bg.jpg';
 import ArtisBg from '../public/static/image/artis-bg.jpg';
 import { motion, Variants } from 'framer-motion';
+import Link from 'next/link';
 
 type Props = {}
 
@@ -61,7 +62,7 @@ const Main = (props: Props) => {
         <motion.div
         className='grid 2xl:grid-cols-7  grid-flow-row gap-10 mr-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
           {listCategories.map((value, index) => {
-            return <motion.div
+            return <Link href={`/category/${value.name}`} > <motion.div
             custom={index}
               initial='hidden'
               animate='visible'
@@ -76,7 +77,7 @@ const Main = (props: Props) => {
                 <Image src={value.image} alt={''} width={100}
                   height={100} />
               </div>
-            </motion.div>
+            </motion.div></Link>
 
           })}
         </motion.div>
