@@ -17,9 +17,9 @@ const index = (props: Props) => {
           <Topside />
         </div>
         <div className="w-full">
-        <div className="h-screen bg-zinc-800">
-          <Main />
-        </div>
+          <div className="h-screen bg-zinc-800 overflow-auto">
+            <Main />
+          </div>
         </div>
       </div>
     </div>
