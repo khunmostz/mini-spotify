@@ -5,6 +5,7 @@ import { FiSearch } from "react-icons/fi";
 import { BiLibrary } from "react-icons/bi";
 import { GoDiffAdded } from "react-icons/go";
 import { MdFavorite } from "react-icons/md";
+import Link from "next/link";
 
 type Props = {
   children?: JSX.Element;
@@ -22,12 +23,14 @@ const Leftside: React.FC<Props> = ({ children }: Props) => {
             </div>
             <span className="text-2xl font-bold text-white">Spotify</span>
           </div>
+          <Link href='/'>
           <div className="flex justify-start items-center text-bold text-lg mt-2 hover:text-white transition ease-in-out duration-150">
             <div className="ml-5 mr-3 text-2xl">
               <AiFillHome />
             </div>
             <span className="text-sm">Home</span>
           </div>
+          </Link>
           <div className="flex justify-start items-center text-bold text-lg pt-4 hover:text-white transition ease-in-out duration-150">
             <div className="ml-5 mr-3 text-2xl">
               <FiSearch />
