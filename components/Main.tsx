@@ -22,6 +22,7 @@ const Main = (props: Props) => {
     { name: "อนิเมะ", color: "#5124FC", image: AnimeBg },
     { name: "แดนส์/อิเล็กทรอนิกส์", color: "#EB1734", image: EdmBg },
     { name: "ศิลปิน", color: "#B970E9", image: ArtisBg },
+    { name: "แดนส์/อิเล็กทรอนิกส์", color: "#EB1734", image: EdmBg },
   ];
 
   React.useEffect(() => {}, []);
