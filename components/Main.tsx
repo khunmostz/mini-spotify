@@ -1,4 +1,5 @@
-import React from "react";
+import { SpotifyContext, SpotifyProps } from "pages/_app";
+import React, { useContext } from "react";
 import CardCategories from "./CardCategories";
 
 
@@ -6,6 +7,9 @@ type Props = {};
 
 const Main = (props: Props) => {
 
+  const spotify:SpotifyProps[] = useContext(SpotifyContext);
+  
+  console.log(spotify[0].id);
 
   return (
     <React.Fragment>
