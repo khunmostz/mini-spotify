@@ -6,6 +6,8 @@ import CardCategories from "./CardCategories";
 
 type Props = {};
 
+
+
 const Main = (props: Props) => {
 
   const spotify:SpotifyProps[] = useContext(SpotifyContext);
