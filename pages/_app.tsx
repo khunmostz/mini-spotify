@@ -1,18 +1,9 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import React from 'react'
+import { SpotifyProps } from 'model/Typings';
 
-type listProps = {
-  listTitle : string,
-  listDesc : string
-}
 
-export type SpotifyProps = {
-  id: number,
-  title: string,
-  categories: string,
-  list: listProps[],
-}
 
 export const SpotifyContext = React.createContext<any>(null!);
 
