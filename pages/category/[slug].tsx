@@ -1,9 +1,16 @@
-import CategoriesPage from '@/components/CategoriesPage'
-import Leftside from '@/components/Leftside'
-import Topside from '@/components/Topside'
-import React from 'react'
+import CategoriesPage from "@/components/CategoriesPage";
+import Leftside from "@/components/Leftside";
+import Topside from "@/components/Topside";
+import { SpotifyContext } from "pages/_app";
+import React, { useContext, useEffect } from "react";
 
 function Index() {
+  const spotifyContext = useContext(SpotifyContext);
+
+  useEffect(() => {
+    console.log(spotifyContext[0].title);
+  }, []);
+
   return (
     <div className="max-w-full max-h-screen overflow-hidden flex flex-row">
       <div className="w-60 h-screen bg-black">
@@ -20,7 +27,7 @@ function Index() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Index
+export default Index;
