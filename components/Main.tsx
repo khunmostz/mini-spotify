@@ -1,5 +1,3 @@
-import { SpotifyProps } from "model/Typings";
-import { SpotifyContext } from "pages/_app";
 import React, { useContext } from "react";
 import CardCategories from "./CardCategories";
 
@@ -10,9 +8,6 @@ type Props = {};
 
 const Main = (props: Props) => {
 
-  const spotify:SpotifyProps[] = useContext(SpotifyContext);
-
-  console.log(spotify[0].categories);
 
   return (
     <React.Fragment>

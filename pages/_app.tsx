@@ -14,11 +14,22 @@ export default function App({ Component, pageProps }: AppProps) {
     {
       id: 1,
       title: 'podcast 01',
-      categories: 'Podcast',
+      categories: 'พอดแคสต์',
       list: [
         {
           listTitle: 'title 1',
           listDesc: 'desc 1',
+        }
+      ]
+    },
+    {
+      id: 2,
+      title: 'แดนส์',
+      categories: 'แดนส์',
+      list: [
+        {
+          listTitle: 'title 2',
+          listDesc: 'desc 2',
         }
       ]
     }

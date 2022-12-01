@@ -35,12 +35,12 @@ const Leftside: React.FC<Props> = ({ children }: Props) => {
 
       <div className="flex h-full flex-col justify-between items-start text-gray-400 ">
         <motion.ul
-          variants={listVariants}
-          initial='hidden'
-          animate='visible'
+          // variants={listVariants}
+          // initial='hidden'
+          // animate='visible'
         >
           <motion.li
-            variants={itemVariants}
+            // variants={itemVariants}
             className="flex justify-start items-center py-6 cursor-pointer">
             <div className="ml-5 mr-1 text-4xl text-white">
               <BsSpotify />
@@ -49,7 +49,7 @@ const Leftside: React.FC<Props> = ({ children }: Props) => {
           </motion.li>
           <Link href='/'>
             <motion.li
-              variants={itemVariants}
+              // variants={itemVariants}
               className="flex justify-start items-center text-bold text-lg mt-2 hover:text-white cursor-pointer">
               <div className="ml-5 mr-3 text-2xl">
                 <AiFillHome />
@@ -58,7 +58,7 @@ const Leftside: React.FC<Props> = ({ children }: Props) => {
             </motion.li>
           </Link>
           <motion.li
-            variants={itemVariants}
+            // variants={itemVariants}
             className="flex justify-start items-center text-bold text-lg pt-4 hover:text-white cursor-pointer ">
             <div className="ml-5 mr-3 text-2xl">
               <FiSearch />
@@ -66,7 +66,7 @@ const Leftside: React.FC<Props> = ({ children }: Props) => {
             <span className="text-sm">Search</span>
           </motion.li>
           <motion.li
-            variants={itemVariants}
+            // variants={itemVariants}
             className="flex justify-start items-center text-bold text-lg pt-4 hover:text-white cursor-pointer ">
             <div className="ml-5 mr-3 text-2xl">
               <BiLibrary />
@@ -74,7 +74,7 @@ const Leftside: React.FC<Props> = ({ children }: Props) => {
             <span className="text-sm">Your Library</span>
           </motion.li>
           <motion.li
-            variants={itemVariants}
+            // variants={itemVariants}
             className="flex justify-start items-center text-bold text-lg mt-8 hover:text-white cursor-pointer ">
             <div className="ml-5 mr-3 text-2xl">
               <GoDiffAdded />
@@ -82,7 +82,7 @@ const Leftside: React.FC<Props> = ({ children }: Props) => {
             <span className="text-sm">Create Playlist</span>
           </motion.li>
           <motion.li
-            variants={itemVariants}
+            // variants={itemVariants}
             className="flex justify-start items-center text-bold text-lg pt-4 hover:text-white cursor-pointer ">
             <div className="ml-5 mr-3 text-2xl">
               <MdFavorite />
