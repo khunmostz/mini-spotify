@@ -27,7 +27,6 @@ function BodyOnCard() {
                         <td className='pt-4'>2 ช.ม ที่ผ่านมา</td>
                         <td className='pt-4'>5.06</td>
                     </tr>
-                  
                 </table>
             </div>
         </React.Fragment>
