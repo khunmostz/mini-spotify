@@ -91,9 +91,9 @@ const Leftside: React.FC<Props> = ({ children }: Props) => {
           </motion.li>
         </motion.ul>
         <div className="mb-4">
-          <div className="ml-5 mr-3 text-xs hover:text-white cursor-pointer ">Cookies</div>
+          <div className="ml-5 mr-3 text-xs hover:text-white cursor-pointer ">Created by</div>
           <span className="ml-5 mr-3 mt-3 text-xs hover:text-white cursor-pointer ">
-            Privacy
+            Khunmostz24
           </span>
         </div>
       </div>

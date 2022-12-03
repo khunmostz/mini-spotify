@@ -21,9 +21,44 @@ function SearchPage() {
                 </div>
                 <div className='w-1/2'>
                     <h1>เพลง</h1>
-                    <div className='w-full h-56 mt-5'>
-                        <div className='px-4 pt-5'>
-                            <div className='flex flex-row'>
+                    <div className='w-full h-56 mt-5 border-red-600 border'>
+                        <div className='flex flex-col fle px-4 pt-5'>
+                            <div className='flex flex-row mb-3'>
+                                <Image src={PodcastBg} alt='' className='' width={50} height={50} />
+                                <div className='ml-2'>
+                                    <p className='text-sm'>VVS</p>
+                                    <p className='text-sm text-gray-500'>title</p>
+                                </div>
+                            </div> 
+                            <div className='flex flex-row mb-3'>
+                                <Image src={PodcastBg} alt='' className='' width={50} height={50} />
+                                <div className='ml-2'>
+                                    <p className='text-sm'>VVS</p>
+                                    <p className='text-sm text-gray-500'>title</p>
+                                </div>
+                            </div>
+                            <div className='flex flex-row mb-3'>
+                                <Image src={PodcastBg} alt='' className='' width={50} height={50} />
+                                <div className='ml-2'>
+                                    <p className='text-sm'>VVS</p>
+                                    <p className='text-sm text-gray-500'>title</p>
+                                </div>
+                            </div>
+                            <div className='flex flex-row mb-3'>
+                                <Image src={PodcastBg} alt='' className='' width={50} height={50} />
+                                <div className='ml-2'>
+                                    <p className='text-sm'>VVS</p>
+                                    <p className='text-sm text-gray-500'>title</p>
+                                </div>
+                            </div>
+                            <div className='flex flex-row mb-3'>
+                                <Image src={PodcastBg} alt='' className='' width={50} height={50} />
+                                <div className='ml-2'>
+                                    <p className='text-sm'>VVS</p>
+                                    <p className='text-sm text-gray-500'>title</p>
+                                </div>
+                            </div>
+                            <div className='flex flex-row mb-3'>
                                 <Image src={PodcastBg} alt='' className='' width={50} height={50} />
                                 <div className='ml-2'>
                                     <p className='text-sm'>VVS</p>
