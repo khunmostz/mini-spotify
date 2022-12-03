@@ -51,10 +51,10 @@ function CategoriesPage() {
                 </motion.li>
 
                 {spotify.filter(type => type.categories === slug).map((value) => {
-                    return <Link href={`/playlist/${value.title}`}>
-
+                    return <Link href={`/playlist/${value.title}`} key={value.id}>
+                        
                         <motion.li
-                            key={value.id}
+                            
                             variants={itemVariants}
                             className="grid 2xl:grid-cols-7  grid-flow-row gap-10 mr-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                             <motion.div

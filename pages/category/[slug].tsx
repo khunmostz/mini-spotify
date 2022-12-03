@@ -8,7 +8,7 @@ function Index() {
   const spotifyContext = useContext(SpotifyContext);
 
   useEffect(() => {
-    console.log(spotifyContext[0].title);
+    
   }, []);
 
   return (

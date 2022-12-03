@@ -57,7 +57,7 @@ function CardCategories() {
                                 scale: 1.2,
                             }}
                             variants={itemVariants}
-                            key={value.name}
+                            key={index}
                             style={{
                                 backgroundColor: `${value.color}`,
                             }}
