@@ -3,7 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["localhost",'images.unsplash.com'], // allow images to be loaded from localhost
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ], // allow images to be loaded from localhost
   },
 };
 

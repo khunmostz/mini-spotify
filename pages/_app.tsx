@@ -9,26 +9,78 @@ export default function App({ Component, pageProps }: AppProps) {
   const initailValue: SpotifyProps[] = [
     {
       id: 1,
-      title: 'podcast 01',
+      title: 'The Ghost Radio',
+      little:'The Ghost Radio',
       categories: 'พอดแคสต์',
+      image: 'https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg',
       list: [
         {
-          listTitle: 'title 1',
-          listDesc: 'desc 1',
-        }
+          id:'1',
+          track: 'มาราธอน ขนหัวลุก - คุณเอ็ม',
+          album:'รวมตอน',
+          datetime: new Date().toLocaleDateString.toString(),
+          image: 'https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg',
+          time:'2 ชั่วโมง 10 นาที',
+        },
+        {
+          id:'2',
+          track: 'มาราธอน ขนหัวลุก - คุณเอ็ม',
+          album:'รวมตอน',
+          datetime: new Date().toLocaleDateString.toString(),
+          image: 'https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg',
+          time:'2 ชั่วโมง 10 นาที',
+        },
+        {
+          id:'3',
+          track: 'มาราธอน ขนหัวลุก - คุณเอ็ม',
+          album:'รวมตอน',
+          datetime: new Date().toLocaleDateString.toString(),
+          image: 'https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg',
+          time:'2 ชั่วโมง 10 นาที',
+        },
+        {
+          id:'4',
+          track: 'มาราธอน ขนหัวลุก - คุณเอ็ม',
+          album:'รวมตอน',
+          datetime: new Date().toLocaleDateString.toString(),
+          image: 'https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg',
+          time:'2 ชั่วโมง 10 นาที',
+        },
+        {
+          id:'5',
+          track: 'มาราธอน ขนหัวลุก - คุณเอ็ม',
+          album:'รวมตอน',
+          datetime: new Date().toLocaleDateString.toString(),
+          image: 'https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg',
+          time:'2 ชั่วโมง 10 นาที',
+        },
+        {
+          id:'6',
+          track: 'มาราธอน ขนหัวลุก - คุณเอ็ม',
+          album:'รวมตอน',
+          datetime: new Date().toLocaleDateString.toString(),
+          image: 'https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg',
+          time:'2 ชั่วโมง 10 นาที',
+        },
+        {
+          id:'7',
+          track: 'มาราธอน ขนหัวลุก - คุณเอ็ม',
+          album:'รวมตอน',
+          datetime: new Date().toLocaleDateString.toString(),
+          image: 'https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg',
+          time:'2 ชั่วโมง 10 นาที',
+        },
+        {
+          id:'8',
+          track: 'มาราธอน ขนหัวลุก - คุณเอ็ม',
+          album:'รวมตอน',
+          datetime: new Date().toLocaleDateString.toString(),
+          image: 'https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg',
+          time:'2 ชั่วโมง 10 นาที',
+        },
+
       ]
     },
-    {
-      id: 2,
-      title: 'แดนส์',
-      categories: 'แดนส์',
-      list: [
-        {
-          listTitle: 'title 2',
-          listDesc: 'desc 2',
-        }
-      ]
-    }
   ]
 
 

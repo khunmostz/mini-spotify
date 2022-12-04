@@ -7,7 +7,7 @@ const Topside: React.FC<Props> = (props: Props) => {
   return (
     <React.Fragment>
 
-      <div className='flex flex-row justify-between items-center text-gray-500 h-full'>
+      <div className='flex flex-row justify-between items-center text-gray-500 h-full '>
         <Search />
         {/* Right */}
         <div className='flex flex-row whitespace-nowrap'>

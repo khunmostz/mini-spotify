@@ -64,11 +64,11 @@ function CategoriesPage() {
                                 }}
                                 className='w-[12rem] h-[15rem] bg-zinc-700 p-5 rounded-lg cursor-pointer'>
                                 <div className='mb-2'>
-                                    <Image src={PodcastBg} alt={''} className='rounded-lg' />
+                                    <Image src={value.image} width={400} height={400} alt={''} className='rounded-lg' />
                                 </div>
                                 <div className=''>
                                     <p className='text-white font-bold'>{value.title}</p>
-                                    <p className='text-gray-400 '>{value.list[0].listDesc}</p>
+                                    <p className='text-gray-400 text-sm'>{value.little}</p>
                                 </div>
                             </motion.div>
                         </motion.li>
