@@ -16,7 +16,7 @@ function OnCard() {
 
   return (
     <React.Fragment>
-      <div className='flex flex-col h-full overflow-auto'>
+      <div className='flex flex-col'>
         <header className='w-full h-96 bg-gradient-to-b from-green-500 via-green-600 to-green-800 flex justify-start items-center'>
           <div className='p-5'>
             {
@@ -48,9 +48,7 @@ function OnCard() {
             <AiOutlineHeart className='text-white text-[2.4rem] mr-4' />
             <FiMoreHorizontal className='text-gray-400 text-[2.4rem] mr-4' />
           </div>
-
           <BodyOnCard slug={slug} />
-
         </div>
       </div>
     </React.Fragment>
