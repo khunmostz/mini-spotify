@@ -20,7 +20,7 @@ function BodyOnCard({ slug }: any) {
 
     return (
         <React.Fragment>
-            <div className=' px-5'>
+            <div className='px-5'>
                 <table className='w-full'>
                     <tbody>
                         <tr className='text-gray-400 text-xs border-b border-gray-500'>

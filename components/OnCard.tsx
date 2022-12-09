@@ -16,7 +16,7 @@ function OnCard() {
 
   return (
     <React.Fragment>
-      <div className='flex flex-col'>
+      <div className='flex flex-col w-full xl:h-[93.1vh] lg:h-[92.5vh] md:h-[93.1vh] sm:h-[92.5vh] overflow-auto'>
         <header className='w-full h-96 bg-gradient-to-b from-green-500 via-green-600 to-green-800 flex justify-start items-center'>
           <div className='p-5'>
             {
