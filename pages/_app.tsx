@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const initailValue: SpotifyProps[] = [
     {
       id: 1,
-      title: 'The Ghost Radio',
+      title: 'TheGhostRadio',
       little: 'The Ghost Radio',
       categories: 'พอดแคสต์',
       image: 'https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg',

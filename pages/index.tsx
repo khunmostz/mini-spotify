@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import React from "react";
 import Leftside from "../components/Leftside";
 import Main from "../components/Main";
-import Navbar from "../components/Navbar";
 import Topside from "../components/Topside";
 // import Custom404 from "./category/404";
 type Props = {};
@@ -18,7 +17,7 @@ const index = (props: Props) => {
       <div className="w-60 h-screen bg-black">
         <Leftside />
       </div>
-      <div className="w-full">
+      <div className="w-full ">
         <div className="h-16 bg-neutral-900 overflow-hidden">
           <Topside />
         </div>
