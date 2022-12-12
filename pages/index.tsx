@@ -13,7 +13,7 @@ const index = (props: Props) => {
   console.log(slug);
   return (
     // bg-zinc-80
-    <div className="max-w-full max-h-screen overflow-hidden flex flex-row">
+    <div className="max-w-full max-h-screen overflow-hidden flex flex-row ">
       <div className="w-60 h-screen bg-black">
         <Leftside />
       </div>
@@ -21,7 +21,7 @@ const index = (props: Props) => {
         <div className="h-16 bg-neutral-900 overflow-hidden">
           <Topside />
         </div>
-        <div className="w-full">
+        <div className="w-full ">
           <div className="h-screen bg-zinc-800 overflow-auto">
             {(() => {
               if (router.asPath == "/") {

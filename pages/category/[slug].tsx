@@ -8,9 +8,7 @@ import React, { useContext, useEffect } from "react";
 function Index() {
   const spotify: SpotifyProps[] = useContext(SpotifyContext);
 
-  useEffect(() => {
-    
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <div className="max-w-full  flex flex-row ">
@@ -21,7 +19,7 @@ function Index() {
         <div className="h-16 bg-neutral-900 overflow-hidden">
           <Topside />
         </div>
-        <div className="w-full  ">
+        <div className="w-full">
           <div className="max-h-full bg-zinc-800 overflow-hidden">
             <CategoriesPage />
           </div>
