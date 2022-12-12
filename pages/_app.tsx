@@ -133,7 +133,483 @@ export default function App({ Component, pageProps }: AppProps) {
     },
     {
       id: 2,
-      title: "TheGhostRadio",
+      title: "TheGhostRadio2",
+      little: "The Ghost Radio",
+      categories: "พอดแคสต์",
+      type: "Top podcasts",
+      image:
+        "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+      list: [
+        {
+          id: "1",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "2",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "3",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "4",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "5",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "6",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "7",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "8",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "9",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "10",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "11",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "12",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: "TheGhostRadio3",
+      little: "The Ghost Radio",
+      categories: "พอดแคสต์",
+      type: "Top podcasts",
+      image:
+        "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+      list: [
+        {
+          id: "1",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "2",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "3",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "4",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "5",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "6",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "7",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "8",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "9",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "10",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "11",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "12",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "TheGhostRadio4",
+      little: "The Ghost Radio",
+      categories: "พอดแคสต์",
+      type: "Top podcasts",
+      image:
+        "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+      list: [
+        {
+          id: "1",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "2",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "3",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "4",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "5",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "6",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "7",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "8",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "9",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "10",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "11",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "12",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+      ],
+    },
+    {
+      id: 5,
+      title: "TheGhostRadio5",
+      little: "The Ghost Radio",
+      categories: "พอดแคสต์",
+      type: "Top podcasts",
+      image:
+        "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+      list: [
+        {
+          id: "1",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "2",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "3",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "4",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "5",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "6",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "7",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "8",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "9",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "10",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "11",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+        {
+          id: "12",
+          track: "มาราธอน ขนหัวลุก - คุณเอ็ม",
+          album: "รวมตอน",
+          datetime: `${day}/${month}/${year}`,
+          image:
+            "https://pbs.twimg.com/profile_images/1287674700861075456/Vui6MxQ5_400x400.jpg",
+          time: "2 ชั่วโมง 10 นาที",
+        },
+      ],
+    },
+    {
+      id: 6,
+      title: "TheGhostRadio6",
       little: "The Ghost Radio",
       categories: "พอดแคสต์",
       type: "Top podcasts",

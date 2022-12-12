@@ -34,55 +34,109 @@ function CategoriesPage() {
 
   return (
     <>
-      <motion.ul
-        variants={listVariants}
-        initial="hidden"
-        animate="visible"
-        className="px-8 pt-12 h-screen overflow-y-auto scrollbar-hide"
-      >
-        <motion.li
-          variants={itemVariants}
-          className="flex flex-row justify-between mb-5"
+      <div className="flex flex-col h-screen ">
+        <motion.div
+          variants={listVariants}
+          initial="hidden"
+          animate="visible"
+          className="px-8 pt-12 overflow-hidden scrollbar-hide"
         >
-          <div className="text-white font-bold text-2xl">{slug}ยอดนิยม</div>
-          <div className="text-gray-500 text-xs">SEEALL</div>
-        </motion.li>
+          <motion.div
+            variants={itemVariants}
+            className="flex flex-row justify-between mb-5"
+          >
+            <div className="text-white font-bold text-2xl">{slug}ยอดนิยม</div>
+            <div className="text-gray-500 text-xs">SEEALL</div>
+          </motion.div>
+          <motion.div
+            variants={itemVariants}
+            className="grid 2xl:grid-cols-7 grid-flow-row gap-10 mr-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+          >
+            {spotify
+              .filter((type) => type.categories === slug)
+              .slice(0, 5)
+              .map((value) => {
+                return (
+                  <Link href={`/playlist/${value.title}`} key={value.id}>
+                    <motion.div
+                      whileTap={{ scale: 0.8 }}
+                      whileHover={{
+                        scale: 1.2,
+                      }}
+                      className="w-[12rem] h-[15rem] bg-zinc-700 p-5 rounded-lg cursor-pointer"
+                    >
+                      <div className="mb-2">
+                        <Image
+                          src={value.image}
+                          width={400}
+                          height={400}
+                          alt={""}
+                          className="rounded-lg"
+                        />
+                      </div>
+                      <div className="">
+                        <p className="text-white font-bold">{value.title}</p>
+                        <p className="text-gray-400 text-sm">{value.little}</p>
+                      </div>
+                    </motion.div>
+                  </Link>
+                );
+              })}
+          </motion.div>
+        </motion.div>
 
-        {spotify
-          .filter((type) => type.categories === slug)
-          .map((value) => {
-            return (
-              <Link href={`/playlist/${value.title}`} key={value.id}>
-                <motion.div
-                  variants={itemVariants}
-                  className="grid 2xl:grid-cols-7 grid-flow-row gap-10 mr-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
-                >
-                  <motion.div
-                    whileTap={{ scale: 0.8 }}
-                    whileHover={{
-                      scale: 1.2,
-                    }}
-                    className="w-[12rem] h-[15rem] bg-zinc-700 p-5 rounded-lg cursor-pointer"
-                  >
-                    <div className="mb-2">
-                      <Image
-                        src={value.image}
-                        width={400}
-                        height={400}
-                        alt={""}
-                        className="rounded-lg"
-                      />
-                    </div>
-                    <div className="">
-                      <p className="text-white font-bold">{value.title}</p>
-                      <p className="text-gray-400 text-sm">{value.little}</p>
-                    </div>
-                  </motion.div>
-                </motion.div>
-              </Link>
-            );
-          })}
-      </motion.ul>
+        {/* asdasd */}
+
+        <motion.div
+          variants={listVariants}
+          initial="hidden"
+          animate="visible"
+          className="px-8 pt-12 overflow-hidden scrollbar-hide"
+        >
+          <motion.div
+            variants={itemVariants}
+            className="flex flex-row justify-between mb-5"
+          >
+            <div className="text-white font-bold text-2xl">{slug}ยอดนิยม</div>
+            <div className="text-gray-500 text-xs">SEEALL</div>
+          </motion.div>
+          <motion.div
+            variants={itemVariants}
+            className="grid 2xl:grid-cols-7 grid-flow-row gap-10 mr-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+          >
+            {spotify
+              .filter((type) => type.categories === slug)
+              .slice(0, 5)
+              .map((value) => {
+                return (
+                  <Link href={`/playlist/${value.title}`} key={value.id}>
+                    <motion.div
+                      whileTap={{ scale: 0.8 }}
+                      whileHover={{
+                        scale: 1.2,
+                      }}
+                      className="w-[12rem] h-[15rem] bg-zinc-700 p-5 rounded-lg cursor-pointer"
+                    >
+                      <div className="mb-2">
+                        <Image
+                          src={value.image}
+                          width={400}
+                          height={400}
+                          alt={""}
+                          className="rounded-lg"
+                        />
+                      </div>
+                      <div className="">
+                        <p className="text-white font-bold">{value.title}</p>
+                        <p className="text-gray-400 text-sm">{value.little}</p>
+                      </div>
+                    </motion.div>
+                  </Link>
+                );
+              })}
+          </motion.div>
+        </motion.div>
+      </div>
     </>
   );
 }

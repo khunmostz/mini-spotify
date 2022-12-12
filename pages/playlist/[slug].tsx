@@ -17,11 +17,11 @@ export default function Index() {
         <div className="h-16 bg-neutral-900 overflow-hidden">
           <Topside />
         </div>
-        <div className="w-full ">
+        <div className="w-full">
           <div className="max-h-full bg-zinc-800 overflow-hidden">
-            <div className="w-fullbg-zinc-900">
-              <OnCard />
-            </div>
+            {/* <div className="w-fullbg-zinc-900"> */}
+            <OnCard />
+            {/* </div> */}
           </div>
         </div>
       </div>

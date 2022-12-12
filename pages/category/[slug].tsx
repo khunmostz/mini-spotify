@@ -11,7 +11,7 @@ function Index() {
   useEffect(() => {}, []);
 
   return (
-    <div className="max-w-full  flex flex-row ">
+    <div className="max-w-full flex flex-row bg-black">
       <div className="w-60 h-screen bg-black overflow-hidden">
         <Leftside />
       </div>
