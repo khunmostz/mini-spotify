@@ -16,6 +16,7 @@ export type SpotifyProps = {
     title: string,
     little: string,
     categories: string,
+    type: string,
     image: string,
     list: listProps[],
 }
